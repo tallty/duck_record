@@ -5,11 +5,11 @@ require "duck_record/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "duck_record"
+  s.name        = "tallty_duck_record"
   s.version     = DuckRecord::VERSION
-  s.authors     = ["jasl"]
-  s.email       = ["jasl9187@hotmail.com"]
-  s.homepage    = "https://github.com/jasl-lab/duck_record"
+  s.authors     = ["tallty"]
+  s.email       = ["dev@tallty.com"]
+  s.homepage    = "https://github.com/tallty/duck_record"
   s.summary     = "Used for creating virtual models like ActiveType or ModelAttribute does"
   s.description = <<-DESC.strip
     It looks like Active Record and quacks like Active Record, but it can't do persistence or querying,

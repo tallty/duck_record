@@ -13,6 +13,8 @@ module DuckRecord
   autoload :Attribute
   autoload :AttributeDecorators
   autoload :Base
+  autoload :MetaStrictRecord
+  autoload :MetaRecord
   autoload :Callbacks
   autoload :Core
   autoload :Enum
