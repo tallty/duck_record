@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    duck_record (0.0.27)
-      activemodel (~> 6.0.3)
-      activesupport (~> 6.0.3)
+    tallty_duck_record (1.0.2)
+      activemodel (>= 5.0)
+      activesupport (>= 5.0)
 
 GEM
   remote: https://gems.ruby-china.com/
@@ -143,10 +143,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  duck_record!
   pry-rails
-  rails (~> 6.0.3)
+  rails (>= 5.0)
   sqlite3
+  tallty_duck_record!
 
 BUNDLED WITH
    1.17.1
